@@ -12,6 +12,7 @@ int main()
         printf("Prod=%d",p);
         d=diff(a,b);
         printf("Diff=%d",d);
+
         return 0;
 }
 
@@ -34,4 +35,5 @@ int diff(int a,int b)
         return a-b;
 }
 
+~                
 
