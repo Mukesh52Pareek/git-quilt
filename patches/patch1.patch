@@ -1,0 +1,23 @@
+Index: git-quilt/main.c
+===================================================================
+--- /dev/null	1970-01-01 00:00:00.000000000 +0000
++++ git-quilt/main.c	2015-11-02 12:02:26.437263223 +0530
+@@ -0,0 +1,18 @@
++#include<stdio.h>
++int main()
++{
++
++	int a,b,s;
++	a=10;
++	b=20;
++	s=sum(a,b);
++	printf("Sum=%d",sum);
++	return 0;
++}
++
++int sum(int a,int b)
++{
++
++
++	return a+b;
++}
